@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import router from './routes/index';
 import {handleError, handleNotFound} from "./routes/handler";
 
-const port = 8080;
+const port = 5000;
 const app = express();
 app.use(bodyParser.json());
 
