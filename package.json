@@ -16,8 +16,7 @@
   },
   "scripts": {
     "babel-node": "babel-node --presets=env",
-    "start": "nodemon --exec npm run babel-node -- ./index.js",
-    "build": "babel src -d dist"
+    "start": "nodemon --exec npm run babel-node -- ./index.js"
   },
   "repository": {
     "type": "git",
