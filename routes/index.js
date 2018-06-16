@@ -11,6 +11,6 @@ const getAppStatus = (req, res) => {
 
 router.get('/', getAppStatus);
 
-router.get('/search', imgur);
+router.post('/gallery', imgur);
 
 export default router;
